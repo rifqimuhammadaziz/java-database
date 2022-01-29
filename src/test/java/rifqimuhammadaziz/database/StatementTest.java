@@ -26,7 +26,7 @@ public class StatementTest {
         // text block (""")
         String sql = """
                 INSERT INTO customers(id, name, email)
-                VALUES('1', 'Rifqi Muhammad Aziz', 'rifqimuhammadaziz@gmail.com')
+                VALUES('5', 'Ahmad Kurnia Muhtar', 'ahmadkurniamuhtar@gmail.com')
                 """;
 
         int update = statement.executeUpdate(sql); // without return data
